@@ -1,0 +1,78 @@
+//Components
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.btn {
+  border: transparent;
+  background: $btn-bg-color;
+  color: $btn-color;
+  border-radius: 74px;
+  font-weight: 500;
+
+  transition: color $cubic-bezier, border $cubic-bezier;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    background: $white-color;
+    border: 1px solid $accent-color;
+  }
+}
+
+.btn-search {
+  border: transparent;
+  color: $btn-color;
+  background: $btn-bg-color;
+  border-radius: 50%;
+  transition: color $cubic-bezier, border $cubic-bezier;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    background: $white-color;
+    border: 1px solid $accent-color;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 375px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 12px;
+    line-height: 1.16;
+  }
+  .btn-search {
+    padding: 11px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+  .btn {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .btn-search {
+    padding: 13px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+  .btn {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .btn-search {
+    padding: 14px;
+  }
+}

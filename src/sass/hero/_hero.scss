@@ -1,0 +1,22 @@
+// <div class ="cardFilm">  
+//     <span class="info-item-film>${title}</span>
+//       <p class="info-item"><b>release_date</b>${release_date}</p>
+//       <p class="info-item"><b>popularity</b>${popularity}</p>
+//       <p class="info-item"><b>vote_average</b>${vote_average}</p>
+//       <p class="info-item"><b>vote_count</b>${vote_count}</p>
+//       <p class="info-item"><b>vote_count</b>${genre_ids}</p>
+//       <p class="info-item"><b>about</b>${overview}</p>
+//       </div>
+
+.info-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B7B7B7;
+  
+}
+.upcoming {
+    border: 5px solid #f44336;
+}
