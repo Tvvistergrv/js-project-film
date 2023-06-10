@@ -53,7 +53,7 @@ async function fetchMovieDetails() {
   
 function createMarkup(movie) {
     return `
-    <div class ="cardFilm">
+    <div class ="card-film">
     <div class ="wrap">
   <img class = "img-upcoming" src="https://image.tmdb.org/t/p/w500${movie.poster_path}" alt="${movie.title} loading="lazy">
         
@@ -199,10 +199,11 @@ function onPageLoad() {
 // }
 
 
-{/* <p class="movie-name">${movie.title}</p>
-<p class="info-item"><b>release_date</b>${movie.release_date}</p>
-<p class="info-item"><b>popularity</b>${movie.popularity}</p>
-<p class="info-item"><b>vote_average</b>${movie.vote_average} / ${movie.vote_count}</p>
-<p class="info-item"><b>vote_count</b>${movie.vote_count}</p>
-<p class="info-item"><b>genre</b>${movie.genres}</p>
-<p class="info-item"><b>about</b>${movie.overview}</p> */}
+// {/* <p class="movie-name">${movie.title}</p>
+// <p class="info-item"><b>release_date</b>${movie.release_date}</p>
+// <p class="info-item"><b>popularity</b>${movie.popularity}</p>
+// <p class="info-item"><b>vote_average</b>${movie.vote_average} / ${movie.vote_count}</p>
+// <p class="info-item"><b>vote_count</b>${movie.vote_count}</p>
+// <p class="info-item"><b>genre</b>${movie.genres}</p>
+// <p class="info-item"><b>about</b>${movie.overview}</p> */}
+

@@ -96,5 +96,31 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.4;
 color: #111111;
-
 }
+
+@media screen and (max-width: 767px) {
+  .img-upcoming {
+    transform: skew(0deg, 10deg);
+    width:100%;
+  }
+  .wrap {
+    overflow: hidden;
+  }
+  }
+
+  @media screen and (min-width: 768px) {
+    .img-upcoming {
+      width: 704px;
+    }
+    .container {
+      width: 768px;
+      padding: 0 32px;
+    }
+    .btn {
+      font-size: 14px;
+      line-height: 1.14;
+    }
+    .btn-search {
+      padding: 13px;
+    }
+  }
